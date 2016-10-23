@@ -2,10 +2,10 @@ const {Assets, Foreman, Lint, Jasmine} = require('pui-react-tools');
 
 Assets.install({
   assets: {
-    sass: false,
+    sass: true,
     html: false
   },
-  useAssetsServer: false
+  useAssetsServer: true
 });
 Foreman.install();
 Lint.install();

@@ -1,9 +1,5 @@
 const React = require('react');
 const types = require('react').PropTypes;
-const ApiPage = require('./api_page');
-const UserCreatePage = require('./user_create_page');
-const UserListPage = require('./user_list_page');
-const TodoPage = require('./todo_page');
 
 function isObject(obj) {
   return typeof obj === 'object';
@@ -22,13 +18,7 @@ function toFlattenedRoutes(routesHash) {
 }
 
 const routes = {
-  '/': 'todoList',
-  '/todoList': 'todoList',
-  '/apiPage': 'apiPage',
-  '/users': {
-    '/list': 'showUsers',
-    '/new': 'createUser'
-  }
+  '/': 'todoList'
 };
 
 class Router extends React.Component {
