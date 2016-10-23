@@ -2,3 +2,32 @@
   padding: 20px;
   color: darkblue;
 }
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+
+  .controls {
+    flex-grow: 1;
+    font-family: arial;
+    background-color: bg-dark-9;
+    border: 1px solid black;
+    padding: 10px;
+    input {
+      margin-right: 10px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+  }
+  .radialHolder {
+    flex-grow: 4;
+    padding: 10px;
+    border:1px solid black;
+  }
+}

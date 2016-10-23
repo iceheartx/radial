@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "pui-css-all": "^7.0.0",
+    "pui-css-colors": "^7.0.0",
+    "pui-css-forms": "^7.0.0",
+    "pui-react-buttons": "^7.0.0"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.6.4",
